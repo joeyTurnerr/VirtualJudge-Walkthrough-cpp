@@ -23,4 +23,12 @@ int main ()
     cout << problem;
 
     return 0;
+    //another solution
+    for (int i = 1; i <= n; i++)
+    {
+        cin >> a >> b >> c;
+
+        if (a+b+c >= 2)
+            problem++;
+    }
 }
