@@ -13,4 +13,6 @@ int main ()
     }
     cout << s;
     return 0;
+    // another solution Using built-in Functions:
+    s.front() = toupper(s[0]);
 }
